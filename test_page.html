@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head><title>hello</title>
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script type="text/javascript">
+$(document).ready(function(){
+$('#tbox').hover(function(){
+$(this).css('background-color','cyan');
+},
+function(){
+$(this).css('background-color','white');
+});
+$('#Submit').click(function(){
+var tval=$('#tbox').val();
+if(tval=="")
+alert("Please enter a valid input!");
+else
+$('#d1').text(tval);
+});
+});
+</script>
+</head>
+<body>
+Enter UserName: <input type="textbox" id="tbox"><br>
+<button id="Submit" value="Submit">Sunbit</button>
+<div id="d1" style="background-color:green"> 
+<h2><i>Hi</i></h2>
+</div>
+</body>
+</html>
