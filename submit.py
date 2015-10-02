@@ -11,7 +11,6 @@ from pytest_bdd import (
 
 import unittest
 import pytest
-import HTMLTestRunner
 from selenium import webdriver
 
 
