@@ -1,5 +1,5 @@
 def f(x):
-    return x+2
+    return x+1
 
 def test_function():
     assert f(3) == 5
