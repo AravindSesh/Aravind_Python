@@ -1,6 +1,7 @@
 # coding=utf-8
 """submit.feature feature tests."""
 
+import pytest_bdd
 from pytest_bdd import (
     given,
     scenario,
