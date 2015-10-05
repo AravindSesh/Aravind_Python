@@ -28,8 +28,7 @@ class Sample:
 		"""I am in a user form."""
 		assert self.browser.title in "hello"
 		if False:
-			sys.exit(1)
-				
+			
 	@when('I click the Submit button')
 	def i_click_the_submit_button():
 		"""I click the Submit button."""
