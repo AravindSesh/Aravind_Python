@@ -1,7 +1,6 @@
 # coding=utf-8
 """submit.feature feature tests."""
 
-import pytest_bdd
 from pytest_bdd import (
     given,
     scenario,
@@ -18,7 +17,7 @@ from selenium import webdriver
 
 class Sample:
 	browser=webdriver.Firefox()
-	browser.get("file:///C:/Users/Aravind/Desktop/test_page.html")
+	browser.get("file:///C:/Users/Aravind/Documents/GitHub/Aravind_Python/test_page.html")
 	@scenario('submit.feature', 'Displaying error in username in a form')
 	def test_displaying_error_in_username_in_a_form():
 		"""Displaying error in username in a form."""
