@@ -1,0 +1,2 @@
+<fail message="Some tests failed - Build failed">
+<condition> <isset property="junit.failure" /> </condition> </fail>
