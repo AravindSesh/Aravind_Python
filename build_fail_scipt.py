@@ -1,3 +1,3 @@
 from exceptions import Exception
-if not a.py:
+if not submit.py:
 	raise Exception("Build failed since test case failed")
